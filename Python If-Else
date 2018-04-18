@@ -1,12 +1,15 @@
 if __name__ == '__main__':
     n = int(raw_input())
 
-if n%2 != 0:
-    print("Weird")
-else:
-    if 2 <= n <= 5:
-        print("Not Wired")
-    elif 6 <= n <= 20:
+if n>100 or n<1:
+    print("Error! N must be between inclusive 1 and 100");
+else:    
+    if n%2 != 0:
         print("Weird")
-    elif n>20:
-        print("Not Weird")
+    else:
+        if 2 <= n <= 5:
+            print("Not Weird")
+        elif 6 <= n <= 20:
+            print("Weird")
+        elif n>20:
+            print("Not Weird")
