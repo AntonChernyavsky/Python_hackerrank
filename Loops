@@ -1,9 +1,0 @@
-if __name__ == '__main__':
-    n = int(input())
-
-s=0
-i=0
-
-while n>i>=0:
-    print(i**2)
-    i=i+1
